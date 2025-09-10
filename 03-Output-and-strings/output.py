@@ -8,7 +8,7 @@
 # TODO: Convert these JavaScript console.log statements to Python print statements
 # JavaScript: console.log("Hello, World!");
 # Python: 
-
+print('Hello World!')
 
 # JavaScript: console.log("Welcome to programming!");
 # Python: 
@@ -17,19 +17,23 @@
 # TODO: Convert this JavaScript output with multiple items
 # JavaScript: console.log("Name:", "Alex", "Age:", 16);
 # Python: 
-
+print('name:','Alex','age',16)
 
 # ========================================
 # PART 2: String Concatenation Practice
 # ========================================
 
-your_name = "Your Name Here"  # TODO: Change this to your actual name
+your_name = "Sasha"  # TODO: Change this to your actual name
 
 # TODO: Convert these JavaScript concatenation methods to Python
 
 # JavaScript: console.log("Hello" + name);
 # Python: 
-
+name = 'Sasha'
+grade = 10
+print('Hello '+ name)
+# print('I am in grade '+10)  cant concat str+int
+print('I am in grade',grade)
 
 # JavaScript: console.log("Hello" + " " + name);
 # Python: 
@@ -38,7 +42,8 @@ your_name = "Your Name Here"  # TODO: Change this to your actual name
 # TODO: Convert this JavaScript template literal to Python f-string
 # JavaScript: console.log(`Hello ${name}!`);
 # Python: 
-
+print(f'Hello {name}')
+print(f'{name} will be in grade {grade+1} nxt yr')
 
 # TODO: Use Python's unique comma feature (no JS equivalent!)
 # Print "Hello" and your_name with automatic spacing
@@ -53,7 +58,6 @@ your_name = "Your Name Here"  # TODO: Change this to your actual name
 # JavaScript: console.log("*".repeat(20));
 # Python: 
 
-
 # JavaScript: console.log("Hi! ".repeat(3));
 # Python: 
 
@@ -61,6 +65,7 @@ your_name = "Your Name Here"  # TODO: Change this to your actual name
 # TODO: Create a border pattern (much easier in Python!)
 # JavaScript: console.log("=".repeat(25));
 # Python: 
+print('=' * 40)
 
 
 # ========================================
@@ -71,7 +76,7 @@ your_name = "Your Name Here"  # TODO: Change this to your actual name
 
 # JavaScript: console.log('She said "Good morning!"');
 # Python: 
-
+print('she said "good mornin"')
 
 # JavaScript: console.log("It's a beautiful day!");
 # Python: 
